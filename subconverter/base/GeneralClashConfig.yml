@@ -140,8 +140,8 @@ dns:
 #   - 'MATCH,DIRECT'
 
 tun:
-  enable: true
-  stack: system
+  enable: false
+  stack: gvisor
   auto-route: true
   auto-detect-interface: true
   dns-hijack:
