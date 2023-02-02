@@ -1,0 +1,236 @@
+[[custom_groups]]
+name = "Proxy"
+type = "select"
+rule = ["[]自动选择","[]手动切换","[]DIRECT"]
+
+[[custom_groups]]
+name = "自动选择"
+type = "url-test"
+rule = ["!!(^(?!.*(自建)).*)"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+
+[[custom_groups]]
+name = "手动切换"
+type = "url-test"
+rule = [".*"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+
+[[custom_groups]]
+name = "YouTube"
+type = "select"
+rule = [
+    "[]Proxy",
+    "[]DIRECT",
+    ".*"
+]
+
+[[custom_groups]]
+name = "NETFLIX"
+type = "select"
+rule = [
+    "[]Proxy",
+    "[]DIRECT",
+    ".*"
+]
+
+[[custom_groups]]
+name = "巴哈姆特"
+type = "select"
+rule = [
+    "[]台湾节点",
+    "[]Proxy",
+    "[]DIRECT",
+    ".*"
+]
+
+[[custom_groups]]
+name = "国外媒体"
+type = "select"
+rule = [
+    "[]Proxy",
+    "[]香港节点",
+    "[]台湾节点",
+    "[]新加坡节点",
+    "[]日本节点",
+    "[]韩国节点",
+    "[]美国节点",
+    "[]土耳其节点",
+    "[]自动选择",
+    "[]手动切换",
+    "[]DIRECT",
+    ".*"
+]
+
+[[custom_groups]]
+name = "国内媒体"
+type = "select"
+rule = [
+    "[]DIRECT",
+    "[]Proxy",
+    "[]香港节点",
+    "[]台湾节点",
+    "[]新加坡节点",
+    "[]日本节点",
+    "[]韩国节点",
+    "[]美国节点",
+    "[]土耳其节点",
+    "[]自动选择",
+    "[]手动切换",
+    ".*"
+]
+
+[[custom_groups]]
+name = "OneDrive"
+type = "select"
+rule = [
+    "[]Proxy",
+    "[]香港节点",
+    "[]台湾节点",
+    "[]新加坡节点",
+    "[]日本节点",
+    "[]韩国节点",
+    "[]美国节点",
+    "[]土耳其节点",
+    "[]自动选择",
+    "[]手动切换",
+    "[]DIRECT",
+    ".*"
+]
+
+[[custom_groups]]
+name = "Microsoft"
+type = "select"
+rule = [
+    "[]Proxy",
+    "[]香港节点",
+    "[]台湾节点",
+    "[]新加坡节点",
+    "[]日本节点",
+    "[]韩国节点",
+    "[]美国节点",
+    "[]土耳其节点",
+    "[]自动选择",
+    "[]手动切换",
+    "[]DIRECT",
+    ".*"
+]
+
+[[custom_groups]]
+name = "Apple"
+type = "select"
+rule = [
+    "[]Proxy",
+    "[]香港节点",
+    "[]台湾节点",
+    "[]新加坡节点",
+    "[]日本节点",
+    "[]韩国节点",
+    "[]美国节点",
+    "[]土耳其节点",
+    "[]自动选择",
+    "[]手动切换",
+    "[]DIRECT",
+    ".*"
+]
+
+[[custom_groups]]
+name = "游戏平台"
+type = "select"
+rule = [
+    "[]Proxy",
+    "[]香港节点",
+    "[]台湾节点",
+    "[]新加坡节点",
+    "[]日本节点",
+    "[]韩国节点",
+    "[]美国节点",
+    "[]土耳其节点",
+    "[]自动选择",
+    "[]手动切换",
+    "[]DIRECT",
+    ".*"
+]
+
+[[custom_groups]]
+name = "Telegram"
+type = "select"
+rule = [
+    "[]Proxy",
+    "[]香港节点",
+    "[]台湾节点",
+    "[]新加坡节点",
+    "[]日本节点",
+    "[]韩国节点",
+    "[]美国节点",
+    "[]土耳其节点",
+    "[]自动选择",
+    "[]手动切换",
+    "[]DIRECT",
+    ".*"
+]
+
+[[custom_groups]]
+name = "运营劫持"
+type = "select"
+rule = ["[]REJECT", "[]DIRECT"]
+
+[[custom_groups]]
+name = "广告拦截"
+type = "select"
+rule = ["[]REJECT", "[]DIRECT"]
+
+[[custom_groups]]
+name = "香港节点"
+type = "url-test"
+rule = ["(HK|HKG|Hong Kong|HKT|HKBN|HGC|WTT|CMI|港)"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+
+[[custom_groups]]
+name = "台湾节点"
+type = "url-test"
+rule = ["(TW|TWN|Taiwan|新北|彰化|CHT|台湾|台|HINET)"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+
+[[custom_groups]]
+name = "日本节点"
+type = "url-test"
+rule = ["(JP|JPN|Japan|Tokyo|Osaka|Saitama|日本|东京|大阪|埼玉|日)"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+
+[[custom_groups]]
+name = "美国节点"
+type = "url-test"
+rule = ["(US|USA|America|United States|美国|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥)"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+
+[[custom_groups]]
+name = "韩国节点"
+type = "url-test"
+rule = ["(KR|Korea|KOR|首尔|韩|韓)"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+
+[[custom_groups]]
+name = "新加坡节点"
+type = "url-test"
+rule = ["(SG|SGP|Singapore|新加坡|狮城|新|星加坡)"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+
+[[custom_groups]]
+name = "土耳其节点"
+type = "url-test"
+rule = ["(Turkey|土耳其|伊斯坦布尔)"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+
+[[custom_groups]]
+name = "Final"
+type = "select"
+rule = ["[]Proxy","[]DIRECT"]
