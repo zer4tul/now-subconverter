@@ -1,5 +1,5 @@
 version = 1
-[common]
+[custom]
 # API mode, set to true to prevent loading local subscriptions or serving local files directly
 api_mode = false
 
@@ -228,7 +228,7 @@ import = "snippets/groups.toml"
 # url = "http://www.gstatic.com/generate_204"
 
 [[custom_groups]]
-import = "snippets/groups.toml"
+import = "https://raw.githubusercontent.com/zer4tul/now-subconverter/master/subconverter/snippets/groups.toml"
 
 # [[custom_groups]]
 # name = "Auto"
@@ -271,7 +271,7 @@ update_ruleset_on_request = false
 # interval = 86400
 
 [[rulesets]]
-import = "snippets/rulesets.toml"
+import = "https://raw.githubusercontent.com/zer4tul/now-subconverter/master/subconverter/snippets/rulesets.toml"
 
 [template]
 template_path = ""
