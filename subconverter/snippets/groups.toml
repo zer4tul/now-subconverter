@@ -64,6 +64,16 @@ rule = [
 ]
 
 [[custom_groups]]
+name = "哔哩哔哩"
+type = "select"
+rule = [
+    "[]DIRECT",
+    "[]香港节点",
+    "[]台湾节点",
+    "[]手动切换",
+]
+
+[[custom_groups]]
 name = "国内媒体"
 type = "select"
 rule = [
