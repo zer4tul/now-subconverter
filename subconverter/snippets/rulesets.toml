@@ -12,7 +12,7 @@ ruleset = "rules/DivineEngine/Surge/Ruleset/Unbreak.list"
 
 [[rulesets]]
 group = "DIRECT"
-ruleset = "https://go.0x08.org/directdomain"
+ruleset = "https://api.onedrive.com/v1.0/shares/s!AvmkyhMlHpv8i8YlJbr45h4ZpV3SOQ/root/content"
 
 [[rulesets]]
 group = "DIRECT"
