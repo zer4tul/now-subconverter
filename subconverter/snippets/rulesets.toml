@@ -76,11 +76,11 @@ ruleset = "rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list"
 
 [[rulesets]]
 group = "Proxy"
-ruleset = "rules/DivineEngine/Surge/Ruleset/Global.list"
+ruleset = "https://api.onedrive.com/v1.0/shares/s!AvmkyhMlHpv8valmU8Y1gSJet0UwUg/root/content"
 
 [[rulesets]]
 group = "Proxy"
-ruleset = "https://api.onedrive.com/v1.0/shares/s!AvmkyhMlHpv8valmU8Y1gSJet0UwUg/root/content"
+ruleset = "rules/DivineEngine/Surge/Ruleset/Global.list"
 
 [[rulesets]]
 group = "Apple"
