@@ -80,7 +80,7 @@ ruleset = "rules/DivineEngine/Surge/Ruleset/Global.list"
 
 [[rulesets]]
 group = "Proxy"
-rulset = "https://api.onedrive.com/v1.0/shares/s!AvmkyhMlHpv8valmU8Y1gSJet0UwUg/root/content"
+ruleset = "https://api.onedrive.com/v1.0/shares/s!AvmkyhMlHpv8valmU8Y1gSJet0UwUg/root/content"
 
 [[rulesets]]
 group = "Apple"
