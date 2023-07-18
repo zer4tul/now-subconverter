@@ -96,7 +96,7 @@ ruleset = "rules/NobyDa/Surge/Download.list"
 
 [[rulesets]]
 group = "DIRECT"
-ruleset = "https://onedrive.live.com/download?resid=FC9B1E2513CAA4F9%21189221&authkey=!AGV3O0vSTFQ6vRs"
+ruleset = "https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3QvcyFBdm1reWhNbEhwdjhpOFlsQnFCbXRlWlFVUXZEWWc_ZT1UbUJnQWY/root/content"
 
 [[rulesets]]
 group = "DIRECT"
