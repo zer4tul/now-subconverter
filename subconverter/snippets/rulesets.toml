@@ -96,6 +96,10 @@ ruleset = "rules/NobyDa/Surge/Download.list"
 
 [[rulesets]]
 group = "DIRECT"
+ruleset = "https://onedrive.live.com/download?resid=FC9B1E2513CAA4F9%21189221&authkey=!AGV3O0vSTFQ6vRs"
+
+[[rulesets]]
+group = "DIRECT"
 ruleset = "[]GEOIP,CN"
 
 [[rulesets]]
