@@ -96,7 +96,7 @@ ruleset = "rules/NobyDa/Surge/Download.list"
 
 [[rulesets]]
 group = "DIRECT"
-ruleset = "https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3QvcyFBdm1reWhNbEhwdjhpOFlsQnFCbXRlWlFVUXZEWWc_ZT1UbUJnQWY/root/content"
+ruleset = "https://raw.githubusercontent.com/zer4tul/now-subconverter/master/subconverter/rules/DirectConnectDomains.list"
 
 [[rulesets]]
 group = "DIRECT"
