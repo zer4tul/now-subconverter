@@ -51,6 +51,10 @@ group = "哔哩哔哩"
 ruleset = "rules/lhie1/Surge/Surge 3/Provider/Media/Bilibili.list"
 
 [[rulesets]]
+group = "TikTok"
+ruleset = "https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTok.list"
+
+[[rulesets]]
 group = "国内媒体"
 ruleset = "rules/lhie1/Surge/Surge 3/Provider/Media/iQiyi.list"
 
