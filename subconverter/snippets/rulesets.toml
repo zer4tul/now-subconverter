@@ -16,7 +16,7 @@ ruleset = "https://api.onedrive.com/v1.0/shares/s!AvmkyhMlHpv8i8YlJbr45h4ZpV3SOQ
 
 [[rulesets]]
 group = "DIRECT"
-ruleset = "clash-domain:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt"
+ruleset = "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt"
 
 [[rulesets]]
 group = "广告拦截"
