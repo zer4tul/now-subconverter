@@ -1,13 +1,21 @@
-DOMAIN-SUFFIX,onedrive.live.com
+# --- Tailscale DERP / Control Plane ---
+# DERP 服务器用的是普通公网 IP，必须直连，否则 WireGuard 隧道被 Clash TUN 吞掉
+DOMAIN-SUFFIX,derp.tailscale.com
+DOMAIN-SUFFIX,controlplane.tailscale.com
+DOMAIN-SUFFIX,login.tailscale.com
+DOMAIN-SUFFIX,tailscale.com
+DOMAIN-SUFFIX,ts.net
+# --- 度管家 VPN ---
 DOMAIN-SUFFIX,baidu-int.com
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,bcebos.com
+# --- 其他 ---
+DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,todesk.com
 DOMAIN-SUFFIX,gstatic.com
-DOMAIN-KEYWORD,agefans
-DOMAIN-KEYWORD,agedm
 DOMAIN-SUFFIX,ihg.com.cn
 DOMAIN-SUFFIX,linkbroad.com
 DOMAIN-SUFFIX,rsproxy.cn
 DOMAIN-SUFFIX,gpudoc-int.com
-DOMAIN-SUFFIX,ts.net
+DOMAIN-KEYWORD,agefans
+DOMAIN-KEYWORD,agedm

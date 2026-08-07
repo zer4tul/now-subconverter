@@ -1,10 +1,12 @@
-PROCESS-NAME,如流
-PROCESS-NAME,"BaiduHi Networking"
-PROCESS-NAME,"BaiduHi 网页内容"
-PROCESS-NAME,Knock
-PROCESS-NAME,"Knock Helper"
-PROCESS-NAME,myopenconnect
-PROCESS-NAME,"Du Gatekeeper"
+# --- Tailscale (macOS System Extension) ---
+# WireGuard 外层 UDP 包必须绕过 Clash TUN，否则 DERP 中继和 NAT 打洞全挂
+PROCESS-NAME,io.tailscale.ipn.macsys.network-extension
+PROCESS-NAME,Tailscale
+# --- 百度度管家 VPN (Baidu XAgent System Extension) ---
+PROCESS-NAME,com.baidu.xagent.endpoint.extension
+PROCESS-NAME,com.baidu.xagent.extension
+PROCESS-NAME,"Baidu XAgent"
+# --- 远程桌面 ---
 PROCESS-NAME,"Jump Desktop"
 PROCESS-NAME,"JumpConnect.exe"
 PROCESS-NAME,"Jump Desktop"
@@ -13,6 +15,15 @@ PROCESS-NAME,"ToDesk.exe"
 PROCESS-NAME,"ToDesk"
 PROCESS-NAME,"Raylink.exe"
 PROCESS-NAME,"Raylink"
-PROCESS-NAME,"Thunder"
+PROCESS-NAME,Knock
+PROCESS-NAME,"Knock Helper"
+PROCESS-NAME,myopenconnect
+PROCESS-NAME,"Du Gatekeeper"
+# --- 即时通讯 ---
+PROCESS-NAME,如流
+PROCESS-NAME,"BaiduHi Networking"
+PROCESS-NAME,"BaiduHi 网页内容"
+PROCESS-NAME,钉钉
+# --- 下载工具 ---
+PROCESS-NAME,Thunder
 PROCESS-NAME,"Thunder.exe"
-PROCESS-NAME,"钉钉"
