@@ -2,6 +2,7 @@
 # DERP 服务器用的是普通公网 IP，必须直连，否则 WireGuard 隧道被 Clash TUN 吞掉
 DOMAIN-SUFFIX,derp.tailscale.com
 DOMAIN-SUFFIX,controlplane.tailscale.com
+DOMAIN-SUFFIX,tail799206.ts.net
 DOMAIN-SUFFIX,login.tailscale.com
 DOMAIN-SUFFIX,tailscale.com
 DOMAIN-SUFFIX,ts.net
